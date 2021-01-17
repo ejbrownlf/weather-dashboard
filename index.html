@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <script src="https://unpkg.com/sv443-joke-api@0.0.8/web/index.js"></script>
+    <link rel="stylesheet" href="assets/style.css">
+
+    <title>Weather Dashboard</title>
+
+  </head>
+
+  <body class="bkg-img">
+    <header>
+      <h1 class="text-center mb-4">Weather Dashboard</h1>
+    </header>
+
+        <div class="row contain">
+
+            <div class="col-lg-3 form-container">
+                <form action="search-form" class="text-center">
+                    <form>
+                        <div class="form-row">
+                          <div class="row">
+                            <div class="seperator"></div>
+                            <input id="search-box" type="text" class="form-control col-8 my-search" placeholder="City">
+                            <button class="btn btn-primary">Search</button>
+                          </div>
+                          
+                          <div class="btn-group-vertical group-btn">
+                            
+                          </div>
+                        </div>
+                      </form>
+                </form>
+            </div>
+            
+            
+
+            <div class="col-lg-9 form-container city-container">
+                <div class="row container" id="top">
+                    <div class="head-details" id="city">City</div>
+                    <div class="end">
+                        <img id="current-img">
+                    </div>
+                    <div class="details">
+                        <p id="temp" class="mb-0">Temperature:</p>
+                    </div> 
+                    <div class="details">
+                        <p id="humidity" class="mb-0">Humidity: </p>
+                    </div>
+                    <div class="details">
+                        <p id="wind" class="mb-0">Wind Speed: </p>
+                    </div>
+                    <div class="end row">
+                        <p class="mb-0">UV Index: </p>
+                        <p id="uv" class="mb-0"></p>
+                    </div>
+                    
+                </div>
+
+                <div class="row=" id="bottom">
+                    <h4>5-Day Forcast:</h4>
+                    <div class="row forecast">
+                        <div class="col-2 day">
+                            <p id="next-date"></p>
+                            <img>
+                            <p id="next-temp"></p>
+                            <p id="next-humid"></p>
+                        </div>
+                        <div class="col-2 day">
+                            <p id="next-date"></p>
+                            <img>
+                            <p id="next-temp"></p>
+                            <p id="next-humid"></p>
+                        </div>
+                        <div class="col-2 day">
+                            <p id="next-date"></p>
+                            <img>
+                            <p id="next-temp"></p>
+                            <p id="next-humid"></p>
+                        </div>
+                        <div class="col-2 day">
+                            <p id="next-date"></p>
+                            <img>
+                            <p id="next-temp"></p>
+                            <p id="next-humid"></p>
+                        </div>
+                        <div class="col-2 day">
+                            <p id="next-date"></p>
+                            <img>
+                            <p id="next-temp"></p>
+                            <p id="next-humid"></p>
+                        </div>
+                </div>
+            </div>
+
+        </div>
+    
+
+    <script src="assets/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="assets/script.js"></script>
+  </body>
+</html>
