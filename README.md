@@ -6,5 +6,5 @@
 
 ![example of app](assets/Screenshot_2.png)
 
-Link to the application: http://ejbrownlf.github.io/weather-dashboard-hw6
+Link to the application: http://ejbrownlf.github.io/weather-dashboard
 
